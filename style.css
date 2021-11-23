@@ -1,0 +1,461 @@
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a .blank {
+  font-size: px;
+}
+
+a:hover {
+  background-color: #6b3e2e;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact {
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.emailInfo {
+  color: #5b0f00;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fakta {
+  font-size: 18px;
+  color: black;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  border-radius: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 8px 8px 8px;
+  */;
+}
+
+.firstImage img {
+  border-radius: 50px;
+  width: auto;
+  height: 500;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  box-shadow: 8px 8px 8px;
+  display: flex;
+}
+
+.friends {
+  font-size: 20px;
+  color: black;
+  width: auto;
+  min-height: 20px;
+  padding: 4px;
+  margin: 40px;
+  display: flex;
+  box-shadow: 8px 8px 8px;
+  background-color: #795644;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 50px
+}
+
+h2 {
+  text-align: center;
+  color: #5b0f00;
+}
+
+.headline {
+  color: #5b0f00;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 4px 5px 3px #795644;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/12/simple-old-paper-1-transparent.jpg");
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: black;
+  overflow-y: scroll;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: #e5d3b3;
+  box-shadow: 2px 2px;
+}
+
+.lankText {
+  font-size: 30px;
+}
+
+.lankar {
+  font-size: 40px;
+  width: 90%;
+  margin: auto;
+  padding: 4px;
+  border: 2px;
+  border-style: groove;
+  height: auto;
+  display: grid;
+  align-items: center;
+  justify-items: auto;
+  background-color: #D2B48C;
+  box-shadow: 6px 6px 6px;
+}
+
+.location {
+  color: #5b0f00;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.madeBy {
+  margin: 10px;
+  font-size: 20px;
+  text-shadow: 4px 5px 3px #795644;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.messageInfo {
+  color: #5b0f00;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page {}
+
+.religion {
+  color: #5b0f00;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.secondHeadline {
+  font-size: 25px;
+  color: #5b0f00;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+tbody {
+  line-height: 400%;
+}
+
+.thirdHeadline {
+  font-size: 20px;
+  color: black;
+  margin: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.txtBoxEmail {
+  width: 40px;
+  padding: 5px;
+  margin: 2px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.txtBoxMessage {
+  width: 40px;
+  padding: 5px;
+  margin: 2px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/***********************Drop Down Menu****************************/
+/* Dropdown Button */
+.dropbtn {
+  background-color: #795644;
+  color: black;
+  box-shadow: 6px 6px 6px;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e3c099;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5b0f00;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #5b0f00;
+}
+
+/*----------------------------------*/
+/*--------Flex Grid sida.-----------*/
+/*----------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman;
+  font: 15px Times normal;
+}
+
+section, footer {
+  padding: 15px;
+  width: 90%;
+  margin: auto;
+  border: 2px #5b0f00;
+}
+
+/* ****************************** */
+/* *** flex box
+/* ****************************** */
+.topMenu, .friendLink {
+  font-size: 15px;
+  width: 80%;
+  min-height: 20px;
+  margin: auto;
+  display: flex;
+  background-color: #795644;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  box-shadow: 6px 6px 6px;
+
+}
+
+.topMenu span, .friendLink span {
+  display: inline-block;
+  background-color: #795644;
+  padding: 10px;
+  width: 15%;
+  min-width: 80px;
+  margin: auto;
+  text-align: center;
+  border: 2px;
+}
+
+/* ****************************** */
+/* end flex */
+/* ****************************** */
+.gridHead {
+  color: #5b0f00;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 4px 5px 3px #795644;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ****************************** */
+/* *** grid template area         */
+/* ****************************** */
+.page {
+  /* grid template A */
+  width: 90%;
+  margin: auto;
+  border: 2px;
+  border-style: groove;
+  height: auto;
+  display: grid;
+  align-items: auto;
+  justify-items: auto;
+}
+
+/* Media query - css motsvarighet till if-sats */
+/* snabel a indikerar att det är något alldeles speciellt */
+/* det närmaste vi kommer programmering i css */
+/* om skärmen har minst 700 px bredd så gäller detta */
+@media (min-width: 700px) {
+  .page {
+    grid-template-areas:
+      "logo   drop   top    left    main"
+      "logo   drop   top    left    main"
+      "logo   drop   top    left    main"
+      "logo   drop   top    left    main"
+      "footer footer footer footer  footer"
+      "footer footer footer footer  footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 8px 8px 8px;
+  }
+  .dropdown {
+    display: none;
+  }
+
+  .topMenu {
+    display: flex;
+  }
+}
+
+/* om skärmen har högst 700 px bredd så gäller detta */
+@media (max-width: 700px) {
+  .page {
+    grid-template-areas:
+      "logo   logo   drop   drop"
+      "top    top    left   left"
+      "main   main   main   main"
+      "footer footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 8px 8px 8px;
+  }
+  .dropdown {
+    display: block;
+  }
+
+  .topMenu {
+    display: none;
+  }
+}
+
+.page span {
+  border: 2px groove;
+}
+
+.lankar span {
+  border: 2px groove;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kristendom {
+  grid-area: logo;
+  background-color: #D2B48C;
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.islam {
+  grid-area: drop;
+  background-color: #D2B48C;
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.hinduism {
+  grid-area: top;
+  background-color: #D2B48C;
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.buddhism {
+  grid-area: left;
+  background-color: #D2B48C;
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.judendom {
+  justify-content: center;
+  grid-area: main;
+  background-color: #D2B48C;
+  margin: 3px;
+  box-shadow: 3px 3px 3px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #F5DEB3;
+  margin: 3px;
+  height: auto;
+  box-shadow: 3px 3px 3px;
+}
+
+/* ************************************** */
+/* slut på grid template area css */
+/* ************************************** */
